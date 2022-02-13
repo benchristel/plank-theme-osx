@@ -38,3 +38,11 @@ In `dconf-editor`, change `org.cinnamon.panels-enabled` from `['1:0:bottom']`
 to `['1:0:top']`.
 
 Since the dock now shows your open applications, you probably don't need the panel to do that as well. Edit `org.cinnamon.enabled-applets` and remove `grouped-window-list@cinnamon.org` from the array.
+
+### Launching the dock on login
+
+In Cinnamon, run the "Startup Applications" app. Add an entry that runs `/usr/bin/plank`. Annoyingly, I had to set the `Startup delay` to 1 (second) to get it to launch. There seems to be a race condition with some other program; expect this to be a source of unreliability.
+
+### Icon theme
+
+Coming soon...
