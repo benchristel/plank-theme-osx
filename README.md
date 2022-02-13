@@ -2,6 +2,8 @@
 
 Style a Plank dock to look OSX-ish.
 
+![screenshot](screenshot-detail.png)
+
 ![screenshot](screenshot.png)
 
 ## Installation
